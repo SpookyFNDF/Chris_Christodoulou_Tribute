@@ -1,0 +1,75 @@
+body
+{
+    margin:0px;
+    font-family: "Anta", sans-serif;
+background: #54cff7;
+background: linear-gradient(133deg, rgba(84, 207, 247, 1) 0%, rgba(139, 23, 255, 1) 100%);
+}
+
+#main
+{
+  width: 100vw;
+  height:100vw;  
+  display:flex;
+  flex-wrap: wrap;
+}
+
+h1
+{
+    font-size: 50px;
+    text-align:center;
+    border-bottom: 4px solid #000000;
+
+}
+#column_1
+{
+width:50vw;
+}
+#column_2
+{
+    width:50vw;
+    align-items: center;
+    justify-content: center;
+}
+#chrisImage
+{
+   margin-top:50px;
+   display:flex;
+   justify-content: center;
+}
+#ROR2Logo
+{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+#biographyTitle
+{
+    margin:50px;
+}
+#biographyContent
+{
+    margin:50px;
+    font-size: 20px;
+    padding: 5px;
+    border: 4px groove #000000;
+}
+#musicPlayer
+{
+    margin:50px;
+    display:flex;
+    justify-content: center;
+}
+@media (max-width: 1080px)
+{
+    #main {
+        display:block;
+    }
+    #column_1 {
+        width:100vw;
+    }
+    #column_2 {
+        width:100vw;
+        
+    }
+}
